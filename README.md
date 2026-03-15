@@ -40,16 +40,20 @@ Este projeto foi desenvolvido para praticar conceitos de desenvolvimento backend
 
 src/main/java/localhost/StockManager
 
-├── config
-├── controller
-├── dto
-├── entity
-└── repository
+── config
+
+── controller
+
+── dto
+
+── entity
+
+── repository
 
 
 ## config
 
-Contém configurações gerais do projeto e da aplicação.
+Contém configurações de permissões de acesso aos endpoints.
 
 ## controller
 
@@ -131,9 +135,9 @@ Para executar o projeto é necessário configurar um banco MySQL.
 ## 1. Criar o banco de dados
 
 SQL
-\`\`\`
+~~~
 CREATE DATABASE stock;
-\`\`\`
+~~~
 ## 2. Configurar o arquivo
 
 Localize o arquivo:
@@ -141,14 +145,14 @@ Localize o arquivo:
 src/main/resources/application.properties
 
 Configure as credenciais do seu banco:
-\`\`\`
+~~~
 spring.datasource.url=jdbc:mysql://localhost:3306/stock
 spring.datasource.username=SEU_USUARIO
 spring.datasource.password=SUA_SENHA
 
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
-\`\`\`
+~~~
 
 O Hibernate criará automaticamente as tabelas ao iniciar a aplicação.
 
@@ -160,11 +164,10 @@ O Hibernate criará automaticamente as tabelas ao iniciar a aplicação.
 https://github.com/ezequieloliveiraa/gerenciador-de-estoque.git
 
 ## 2. Execute a classe principal pela IDE:
-\`\`\`
-StockManagerApplication
-\`\`\`
 
-# Endpoints da API
+src/main/java/localhost/StockManager/StockManagerApplication.java
+
+
 # Endpoints da API
 
 ## Clientes
