@@ -20,7 +20,7 @@ Este projeto foi desenvolvido para praticar conceitos de desenvolvimento backend
 
 # Tecnologias Utilizadas
 
-- Java  
+- Java 25
 - Spring Boot  
 - Spring Web  
 - Spring Data JPA  
@@ -163,6 +163,7 @@ https://github.com/ezequieloliveiraa/gerenciador-de-estoque.git
 
 src/main/java/localhost/StockManager/StockManagerApplication.java
 
+--- 
 
 # Endpoints da API
 
